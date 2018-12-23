@@ -1,0 +1,58 @@
+{
+  "name": "jchip",
+  "version": "0.0.1",
+  "description": "Peronal npm card for Joel Chen (@jchip)",
+  "main": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jchip/jchip.git"
+  },
+  "scripts": {
+    "prepublishOnly": "webpack"
+  },
+  "bin": {
+    "jchip": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Joel Chen",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-loader": "^8.0.4",
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "lodash.get": "^4.4.2",
+    "webpack": "^4.28.1",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.1.2"
+  },
+  "myCard": {
+    "name": "          Joel Chen",
+    "handle": "<green> / </>jchip",
+    "data": {
+      ".empty-line-100": "",
+      "<blue>Work</>": "Principal Architect @WalmartLabs",
+      ".empty-line-200": "",
+      "Twitter": "https://twitter.com/<cyan>joelchen19</>",
+      "npm": "https://www.npmjs.com/<red>~jchip</>",
+      "GitHub": "https://github.com/<green>jchip</>",
+      "LinkedIn": "https://www.linkedin.com/in/<blue>joelchen</>",
+      "Web": "<cyan>https://www.electrode.io</>",
+      ".empty-line-300": "",
+      "Card": "<red>npx</> jchip"
+    }
+  }
+}
