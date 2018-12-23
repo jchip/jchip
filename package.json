@@ -40,19 +40,54 @@
     "webpack-cli": "^3.1.2"
   },
   "myCard": {
-    "name": "          Joel Chen",
-    "handle": "<green> / </>jchip",
-    "data": {
-      ".empty-line-100": "",
-      "<blue>Work</>": "Principal Architect @WalmartLabs",
-      ".empty-line-200": "",
-      "Twitter": "https://twitter.com/<cyan>joelchen19</>",
-      "npm": "https://www.npmjs.com/<red>~jchip</>",
-      "GitHub": "https://github.com/<green>jchip</>",
-      "LinkedIn": "https://www.linkedin.com/in/<blue>joelchen</>",
-      "Web": "<cyan>https://www.electrode.io</>",
-      ".empty-line-300": "",
-      "Card": "<red>npx</> jchip"
-    }
+    "info": {
+      "name": "Joel Chen",
+      "handle": "jchip",
+      "twitter": "joelchen19",
+      "npm": "jchip",
+      "github": "jchip",
+      "linkedin": "joelchen",
+      "web": "https://www.electrode.io",
+      "work": "Principal Architect @WalmartLabs"
+    },
+    "data": [
+      "          <white>{{name}}</><green> / </><cyan>{{handle}}</>",
+      "",
+      {
+        "label": "<blue>Work</>",
+        "text": "{{work}}"
+      },
+      "",
+      {
+        "label": "Twitter",
+        "text": "https://twitter.com/<cyan>{{twitter}}</>",
+        "when": "{{twitter}}"
+      },
+      {
+        "label": "npm",
+        "text": "https://www.npmjs.com/<red>~{{npm}}</>",
+        "when": "{{npm}}"
+      },
+      {
+        "label": "GitHub",
+        "text": "https://github.com/<green>{{github}}</>",
+        "when": "{{github}}"
+      },
+      {
+        "label": "LinkedIn",
+        "text": "https://www.linkedin.com/in/<blue>{{linkedin}}</>",
+        "when": "{{linkedin}}"
+      },
+      {
+        "label": "Web",
+        "text": "<cyan>{{web}}</>",
+        "when": "{{web}}"
+      },
+      "",
+      {
+        "label": "Card",
+        "text": "<red>npx</> {{_packageName}}"
+      }
+    ]
   }
 }
