@@ -1,6 +1,6 @@
 {
   "name": "jchip",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Personal npm card for Joel Chen (@jchip)",
   "main": "bin/index.js",
   "repository": {
