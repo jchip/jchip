@@ -1,6 +1,6 @@
 {
   "name": "jchip",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Personal npm card for Joel Chen (@jchip)",
   "main": "dist/card.js",
   "unpkg": "index.html",
