@@ -1378,6 +1378,15 @@ chalk:
    ansi-styles: ^3.2.1
    escape-string-regexp: ^1.0.5
    supports-color: ^5.3.0
+chalker:
+ _:
+  ^1.0.0: 1.0.1
+ 1.0.1:
+  top: 1
+  $: sha512-ulY69YQsLhU+oSfHaD+CMsSMe+SrvphRCDkGL9YBNEUXAdhOhAaHqEhY8zdlzcOlYff2L62odCWbKoHfUv5J5Q==
+  _: 'https://registry.npmjs.org/chalker/-/chalker-1.0.1.tgz'
+  peerDependencies:
+   chalk: '>=2'
 check-types:
  _:
   ^7.3.0: 7.4.0
