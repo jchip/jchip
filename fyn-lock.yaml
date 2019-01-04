@@ -1383,7 +1383,7 @@ chalker:
   ^1.0.0: 1.0.1
  1.0.1:
   top: 1
-  $: sha512-ulY69YQsLhU+oSfHaD+CMsSMe+SrvphRCDkGL9YBNEUXAdhOhAaHqEhY8zdlzcOlYff2L62odCWbKoHfUv5J5Q==
+  $: sha512-UpcRRemoP27+xFY7AcvYWwpG8Sy0kLwpKFgpK16unAhVyGT3CADr6c9AlqBDWjekf8cwn5dAQGXufUulzgf20g==
   _: 'https://registry.npmjs.org/chalker/-/chalker-1.0.1.tgz'
   peerDependencies:
    chalk: '>=2'
